@@ -1,12 +1,12 @@
 {
   "name": "getfrontmatter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon --watch src"
   },
   "bin": {
-    "getfrontmatter": "./bin/main"
+    "getfrontmatter": "bin/main"
   },
   "author": "Jeremy Greer <jex.grizzle@gmail.com>",
   "license": "ISC",
