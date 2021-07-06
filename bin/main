@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+const getfrontmatter = require('../src')
+getfrontmatter()

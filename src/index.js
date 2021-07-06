@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 const moment = require('moment')
 const prompt = require('prompt')
 
@@ -37,7 +36,7 @@ const splitTags = (tags) => {
     .filter(x => x)
 }
 
-;(async () => {
+const main = async () => {
   prompt.start()
   const layout = 'post'
   const date = getDate()
@@ -62,4 +61,6 @@ const splitTags = (tags) => {
   }
   const blogHeader = getBlogHeader(data)
   console.log(blogHeader)
-})()
+}
+
+module.exports = main

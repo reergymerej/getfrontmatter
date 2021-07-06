@@ -1,18 +1,35 @@
 # getfrontmatter
 
-Answer a couple prompts and get the [front matter](https://jekyllrb.com/docs/front-matter/) for the jekyll post.
+Answer a couple prompts and get the [front matter](https://jekyllrb.com/docs/front-matter/) for a jekyll post.
 
 ## Example
 
-    prompt: Blog title:  Here are some random thoughts to pollute the internet.
-    prompt: tags (comma-separated):  religion, politics, linting
+    ./bin/main
+    prompt: Blog title:  Hey, now.  We're the monkeys!
+    prompt: tags (comma-separated):  monkey, business, bananas
     ---
     layout: post
-    title:  "Here are some random thoughts to pollute the internet."
-    date:   2021-07-05 19:00:00 -0400
+    title:  "Hey, now.  We're the monkeys!"
+    date:   2021-07-05 20:00:00 -0400
     categories: blog
     tags:
-      - religion
-      - politics
-      - linting
+      - monkey
+      - business
+      - bananas
     ---
+
+## Installation and Usage
+
+
+**Global**
+
+    npm i --global getfrontmatter
+    getfrontmatter
+
+**Local**
+
+    npm i --save getfrontmatter
+
+    import getfrontmatter from 'getfrontmatter'
+    getfrontmatter()
+

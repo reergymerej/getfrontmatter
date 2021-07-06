@@ -5,6 +5,9 @@
   "scripts": {
     "dev": "nodemon --watch src"
   },
+  "bin": {
+    "getfrontmatter": "./bin/main"
+  },
   "author": "Jeremy Greer <jex.grizzle@gmail.com>",
   "license": "ISC",
   "devDependencies": {
@@ -14,7 +17,7 @@
     "moment": "^2.29.1",
     "prompt": "^1.1.0"
   },
-  "description": "Answer a couple prompts and get the front matter for the jekyll post.",
+  "description": "Answer a couple prompts and get the front matter for a jekyll post.",
   "keywords": [
     "jekyll",
     "jekyll helper",
