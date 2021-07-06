@@ -1,0 +1,31 @@
+{
+  "name": "getfrontmatter",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon --watch src"
+  },
+  "author": "Jeremy Greer <jex.grizzle@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "dependencies": {
+    "moment": "^2.29.1",
+    "prompt": "^1.1.0"
+  },
+  "description": "Answer a couple prompts and get the front matter for the jekyll post.",
+  "keywords": [
+    "jekyll",
+    "jekyll helper",
+    "front matter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reergymerej/getfrontmatter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reergymerej/getfrontmatter/issues"
+  },
+  "homepage": "https://github.com/reergymerej/getfrontmatter#readme"
+}
